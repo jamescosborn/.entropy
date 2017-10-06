@@ -1,4 +1,4 @@
-# Interactive Cyberpunk Story
+# .entropy
 
 #### _An interactive cyberpunk story where the user can enter a name, pick between two initial choices, and receive one of two endings based on their choices._
 
