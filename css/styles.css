@@ -142,14 +142,18 @@ body {
 }
 
 .shady {
-  text-shadow: 10px 10px 10px black;
+  text-shadow: 0 0 6px rgb(255, 22, 250);
 }
 
 .btn-round {
   border-radius: 15px 50px;
 }
 
+.nia {
+  text-shadow: 4px 4px 5px blue;
+}
+
 .oshi {
-  color: rgb(255, 22, 250);
+  color: rgb(232, 27, 209);
   text-shadow: 10px 10px 10px purple;
 }
