@@ -2,10 +2,10 @@
 
 #### _An interactive cyberpunk story where the user can enter a name, pick between two initial choices, and receive one of two endings based on their choices._
 
-#### by James Osborn Project Lead  
-#### Scott Reichert Design/Production
-#### Elliot Buren UI Lead
-#### Joseph Tomlinson Engineering Lead
+#### by James Osborn, Project Lead  
+#### Scott Reichert, Design/Production
+#### Elliot Buren, UI Lead
+#### Joseph Tomlinson, Engineering Lead
 
 ## Description
 

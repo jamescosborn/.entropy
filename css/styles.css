@@ -14,12 +14,16 @@ body {
   background-color: var(--col-bg);
 }
 
+.smaller-image {
+  image-resolution: 75%;
+}
+
 .kowabunga {
   color: red;
 }
 
 .forest {
-  color: green;  
+  color: green;
 }
 
 /*Override Bootstrap form colors*/
