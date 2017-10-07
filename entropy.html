@@ -14,7 +14,7 @@
   <body>
     <!-- Intro -->
     <div class="container">
-      <blockquote class="blockquote hidden quote" id="intro-quote">
+      <blockquote class="blockquote hidden quote lign-up" id="intro-quote">
         <p class="mb-0">Who controls the past now controls the future. Who controls the present now controls the past. Who controls the present now?</p>
         <footer class="blockquote-footer">Rage Against the Machine (1999) <cite title="Source Title">Battle for Los Angeles</cite></footer>
       </blockquote>
@@ -23,21 +23,21 @@
         <img class="default" src="img/hallway_1.jpg">
     <!-- Character Creator -->
       </br>
-      <p> What does it mean to be human? How do we decide which path to take along the journey of our lives? On the streets of Velvet City, a wayward android scrounges for enough bitcoin to buy himself some lazy code. Around the corner, an SCorp enforcer takes down a Terminal Tom for peddling illegal code. The city is full of stories.... this is yours.</p>
+      <p> What does it mean to be human? How do we decide which path to take along the journey of our lives? On the streets of Velvet City, a wayward android scrounges for enough bitcoin to buy himself some code. Around the corner, an SCorp enforcer takes down a Terminal Tom for peddling illegal script. The city is full of stories.... this is yours.</p>
       </br>
       <form id="form-character">
         <div class="row">
           <div class="character-type col-sm-6 red-background">
             <div class="character-text">
-              <p>You trust that nothing stays gold. The confused, unorganized state of primordial matter amuses you. Creation and destruction are both part of the natural order. The world is a can full of gas. You’ve got a hand full of matches.</p>
+              <p>You believe everything has a place and purpose. The pattern, structure, and repetition of everyday life make you feel safe. The world today is a dangerous place, so you follow the rules. Those that step out of line often come to regret it.</p>
             </div>
-            <button type="button" addflag="flag-chaos" removeflag="flag-order" class="btn btn-primary btn-lg btn-block option" id="chaos">Chaos</button>
+            <button type="button" addflag="flag-order" removeflag="flag-chaos" class="btn btn-danger btn-lg btn-block option">Order</button>
           </div>
           <div class="character-type col-sm-6 blue-background">
             <div class="character-text">
-              <p>You believe everything has a place and purpose. The pattern, structure, and repetition of everyday life make you feel safe. The world today is a dangerous place, so you follow the rules. Those that step out of line come to regret it.</p>
+              <p>You trust that nothing stays gold. The confused, unorganized state of primordial matter amuses you. Creation and destruction are both part of the natural order. The world is a can full of gas. You’ve got a hand full of matches.</p>
             </div>
-            <button type="button" addflag="flag-order" removeflag="flag-chaos" class="btn btn-danger btn-lg btn-block option">Order</button>
+            <button type="button" addflag="flag-chaos" removeflag="flag-order" class="btn btn-primary btn-lg btn-block option" id="chaos">Chaos</button>
           </div>
         </div>
 
@@ -69,11 +69,11 @@
         <p>"Time to begin work <span class="player-name"></span>!" the trapper keeper chimes as the clock read 8am.</p>
         <p><span class needsFlag = "flag-chaos">“Same stuff… different day,” you mutter to yourself. The last thing you want to do is spend all day writing full pieces. All you can think about is the event the Watchers are calling “The Crash.”</span><span class needsFlag = "flag-order">You try to clear your mind of the news, opening applications and going through your daily routine to prepare for work.</span></p>
         <p>Today you need to write an album review for the Screaming Valkyries latest, <i>Null Dreams</i>. There's the blog post, the copy, the images, an interview with Naoki Koda at 3, another piece a new jewlery app for Robo-Dogs. It's going to be a brutally busy day. Then you have a thought: maybe you should reach out to some contacts, see if you can learn more about the Crash?</p>
-        <p>Maybe <span class="kowabunga">Zephyr</span> would know something? You suspect she's a pirate cyberframe user like you - a framer. Likes to talk conspiracy theories after a few Kirins.</p>
-        <p>Or what about <span class="order-color">Gabe</span>? Gabe's a little more trustworthy. You've known him longer, and he's a bartender so he might have some decent intel.<p>
+        <p>Maybe <span class="order-color">Gabe</span> would know something? You've known him long time, he's a chummer. He's also a bartender, so he might have some decent intel.<p>
+        <p>Or what about your old academy contact <span class="kowabunga">Zephyr</span>? You suspect she's a pirate cyberframe user<span needsFlag="flag-chaos"> like you - a <span class="shadow">framer.</span></span><span needsFlag="flag-order">. She's never done you wrong though.</span> Likes to talk conspiracy theories after a few sakes.</p>
       </div>
-      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
       <button type="button" class="player-choice btn-primary btn-lg" value="#scene-B">Meet Gabe at the bar after work</button>
+      <button type="button" class="player-choice btn-danger btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
       <!-- <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C"><span class="glyphicon glyphicon-search" aria-hidden="false"></span>GlossARRYYYYYYYYYYYYY</button> -->
     </div>
     <!--Scene B  Bar -->
@@ -103,48 +103,52 @@
     </div>
     <!--Scene C  Park -->
     <div class="scene" id="scene-C">
-      <h1 class="customfont" >Westwood Park - 12:24 p.m.</h1>
+      <h1 class="customfont">Westwood Park - 12:24 p.m.</h1>
       <div class="textbox">
         <img class="default" src="img/park_3.jpg">
         </br>
         <p>You can’t stop thinking about the Crash, and feel like you need to know more. You go to Westwood Park to try to relax, but the old, dying trees and tainted sunlight give you no comfort. People mill by at a listless pace, gas masks over their faces.</p>
-        <p>Why did all those people crash? Is it going to happen again, or to <i>you</i>? You feel sick, uneasy, like you have to get to the bottom of this. One of your old chummers from academy might know. You heard he’d got a pretty nice gig with SCorp as an ICE controller. The park is now deserted, and seems sad, haunted. You stomp at a rat that scurries by your feet.</p>
+        <p>Why did all those people crash? Is it going to happen again, or to <i>you</i>? You feel sick, uneasy, like you have to get to the bottom of this. One of your old chummers from academy might know. You heard she’d got a pretty nice gig with SCorp as an ICE controller. The park is now deserted, and seems sad, haunted. You stomp at a rat that scurries by your feet.</p>
         <p>Ehh, it’s worth a shot. You call up Zephyr Dionikes on your vidphone.</p>
         <p>“<span class="player-name"></span>, what’s going down?”</p>
-        <p>“Hey, Zephyr. You know anything about the Crash? I can’t stop thinking about it,” you say.</p>
-        <p>Zephyr stays silent for a few moments. “<span class="player-name"></span>, don’t look too close." <p>That’s my advice. Go to your job tomorrow, try to be happy, find a date this weekend.”</p>
+        <p>“Hey, Zephyr. You know anything about the Crash? I can’t shake it,” you say.</p>
+        <p>Zephyr stays silent for a few moments. “<span class="player-name"></span>, don’t look too close. That’s my advice. Go to your job tomorrow, be merry, find a date this weekend.”</p>
         <p>“Zeph, tell me. I need to know. What happened?”</p>
-        <p>He takes a moment to rub his furrowed brow. <span class="kowabunga">ENCRYPTED</span> flashes onto the screen. “Fine, you asked for it. Look into SCorp's repositories for the latest firmware update.” The line disconnects... He looked really concerned. It’s been a long day. Whatever Zeph pointed me towards, it’s probably not good. Time to get back home. As you walk, you see someone down and out slumped next to a tree.</p>
+        <p>She takes a moment to rub her brow. <span class="kowabunga">ENCRYPTED</span> flashes onto the screen. “Fine, you asked for it. Look at SCorp's private repositories for Icarus.” The line disconnects...
+        <p>Well... She looked really concerned. What could SCorp be hiding in their repos? It’s been a long day. Whatever Zeph pointed me towards, it’s probably not good. Time to get back home. As you walk, you see someone down and out slumped next to a tree.</p>
       </div>
       <button type="button" class="player-choice btn-primary btn-lg" value="#scene-D">Head to your apartment.</button>
     </div>
       <!-- <button type="button" class="btn-primary btn-lg" ata-container="body" data-toggle="popover" data-placement="right" data-content="FAKE BUTTON">Stay at home</button> -->
     <!--Scene D  -->
     <div class="scene" id="scene-D">
-      <h1 class="customfont" >Roach Apartments, 6 p.m.</h1>
+      <h1 class="customfont">Roach Apartments, 6 p.m.</h1>
       <div class="textbox">
         <p><span needsFlag = "flag-order">You try and focus on anything EXCEPT for the tip you just learned, but you can’t seem to push it out of your mind.</span><span needsFlag = "flag-chaos">This is the real story, you tell yourself, not some silly tale. You're going to get to the bottom of this.</span></p>
-        <p>“DING FLOOR 200!” the mag lift announces. </p>
-        <p>You step into the desolate hall of your apartment floor and make your way to door 200e2. The room is nearly empty save a bed, a nightstand, and a vintage Felix the Cat alarm clock from the '90s. The techno greasy glow of the magenta city scape illuminates cold room. You take a moment and finally decide that you need to know what is being hidden from the public about “The Crash”.</p>
+        <p>“<i>Floor 59</i>” the mag lift announces. </p>
+        <p>You step into the desolate hall of your apartment floor and make your way to door 59e2. The room is nearly empty save a bed, a nightstand, and a vintage Felix the Cat alarm clock from the early '90s. The techno greasy glow of the magenta city scape illuminates the cold room. You take a moment and finally decide that you need to know what is being hidden from the public about “The Crash.”</p>
         <p>You set the brain potato to twice stuffed and frame jack into the SCorp repositories. You execute a bit of custom script and find something unusual. An error in the commit log for the latest neural link software update. There are several lines that are redacted. You dig deeper into the problem, only to discover the horrifying truth…</p>
         <p>A bug. A nasty one. And even worse, SCorp knew it was going to happen, and they did nothing to stop it.</p>
         <p>This could be the end of SCorp if anyone finds out…</p>
         <p>"You have a new message, <span class="player-name"></span>," chimes your Trapper Keeper.</p>
-        <p>From an anonymous Journalist… “You have the information I need. Help me change the world.”</p>
+        <p>They call themselves <span class="journalist"><strong>Oshi</strong></span>… “You have the information I need. Help me change the world.”</p>
       </div>
       <button addflag="info-given" type="button" class="player-choice btn-primary btn-lg" value="#scene-F">Send information</button>
       <button addflag="info-kept" type="button" class="player-choice btn-primary btn-lg" value="#scene-E">Don't Send information</button>
     </div>
     <!--Scene E  -->
     <div class="scene" id="scene-E">
-      <h1 class="customfont">Escape SCorp News</h1>
+      <h1 class="customfont">Escape SCorp News!</h1>
       <div class="textbox">
-        <p>You decide not to send the information, you have no idea who this person is, or even if they can be trusted.</p>
+        <p>Back at your at work the next day, you decide not to send the information. After all, you have no idea who this person is, or even if they can be trusted.</p>
         <p>The mag lift dings open and a group of heavily armed SCorp enforcers step out.</p>
-        <p>It seems as though you can't escape the wrath of SCorp. You make a mad dash and catch the mag lift at the opposite side of the room. They chase you out of the building and through a network of alleys. You try to evade the omnipresence of wires devouring the cityscape. The tangle you up, slowing you down. The SCorp enforcers are hot on your tail.</p>
-        <p>As you extricate yourself from the electric brine with your laser blade, and begin to run again a stranger pulls you in from a side door of a store front.</p>
-        <p><i>"Oh no... SCorp has me now"</i> you think.
-        <p> You and the journalist flee into the nefarious neon underground, away from harm above, for now...</p>
+        <p>You try to play it cool at first. Maybe they're not looking for you.</p>
+        <p>"FREEZE!" one of them shouts.</p>
+        <p>It seems as though you can't escape the wrath of SCorp. You make a mad dash and get to the stairwell at the opposite side of the room and hussle down 4 flights of stairs, then jump off the second floor balcony.</p>
+        <p>You don't look back. Running through the alleyways, you try to evade the omnipresence of dangerous, razor sharp wires that are devouring the cityscape. They come alive, alert to your presence, and tangle you up, slowing you down, cutting you. And SCorp is hot on your tale.</p>
+        <p>You extricate yourself from the electric swine with your laser knife, then begin to run again. Just then a shadowy figure grabs your arm and yanks you in to a doorway.</p>
+        <p><i>"What the hell!... I didn't do anything,"</i> you say, readying your knife.
+        <p>"Easy," the figure says, taking down his hood, "My name is Oshi. You must follow me." Seeing no other choice, you flee into the nefarious underground, away from the neon and harm, for now...</p>
       </div>
       <button type="button" class="player-choice btn-primary btn-lg" value="#scene-G">Journalist Hideout</button>
       <button type="button" class="btn-primary btn-lg" ata-container="body" data-toggle="popover" data-placement="right" data-content="Maybe you should stay put... you're kinda out of breath at this point">Keep Running</button>

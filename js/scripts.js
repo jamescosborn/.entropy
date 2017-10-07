@@ -95,7 +95,7 @@ $(document).ready(function() {
     var self = $(this) // this controls specifically the clicked button
     var targetClass = self.val();
     updateFlags(self);
-    fadeSwap(".scene", targetClass, 1500);
+    fadeSwap(".scene", targetClass, 100);
   })
 
   $(".option").click(function(){
@@ -107,7 +107,7 @@ $(document).ready(function() {
   });
 
 
-  var introfade = 2500;
+  var introfade = 100;
 
   $("#intro-quote").fadeIn(introfade*2);
 

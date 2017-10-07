@@ -21,6 +21,7 @@ _Once the user reaches the final scene, they are given a difficult choice betwee
 
 ## Known Bugs
 
+_Intro quote does not appear centered vertically on smaller monitors._
 _Glossary is broken_  
 _hoverbike1.mp3 does not play_  
 
