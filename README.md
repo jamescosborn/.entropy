@@ -1,6 +1,6 @@
 # .entropy
 
-#### _An interactive cyberpunk short story where the user can enter a name, choose between Order and Chaos, and receive one of two endings based on their choices._
+#### _An interactive cyberpunk short story where the user can enter a name, choose between two paths of Chaos and Order, and receive one of two endings based on their choices._
 
 #### James Osborn, _Project Lead_
 #### Scott Reichert, _Design/Production_
@@ -9,9 +9,9 @@
 
 ## Description
 
-_.entropy is an interactive cyberpunk story that focuses on the themes of order and chaos. The player is first presented with an intro that sets up the world and story, then they are taken to a character creation page._
+_.entropy is an interactive cyberpunk story that focuses on the themes of chaos and order. The player is first presented with an intro that sets up the world and story, then they are taken to a character creation page._
 
-_On the character creation page, the user must choose between one of two paths, Order or Chaos, and then must enter a name. The choice the player makes here will have some impact on the story later on. The name the user selects will appear at certain points throughout the story. The user must select a path, and enter a name (1 or more characters, 40 max)._
+_On the character creation page, the user must choose between one of two paths, Chaos and Order, and then must enter a name. The choice the player makes here will have some impact on the story later on. The name the user selects will appear at certain points throughout the story. The user must select a path, and enter a name (1 or more characters, 40 max)._
 
 _As the user progresses through the story, there is a glyph on the side of the page that links to a glossary of cyberpunk terms. If the user is unsure of a certain word, they can use this glossary to get a better understanding._
 
@@ -37,8 +37,8 @@ __Original sounds__ hoverbike1.mp3 now plays whenever the player starts their ho
 __glossary glyph__ a book glyph linking to a glossary of cyberpunk terms will hug the right side of the page, following the player as they scroll up and down
 
 3. dungeons update -- ?  
-__2 unique dungeons__ depending on if the player is Order or Chaos, they will be given the option to hack in to FrameWorld and experience one of two unique text "dungeons", with a variety of puzzles using JavaScript. They are:  _Court of the Blizzard Queen_ if the player is Order, _101010_ in the player is Chaos.
-4. art, music and sound update -- 11/20/17  
+__2 unique dungeons__ depending on if the player is Order or Chaos, they will be given the option to hack in to FrameWorld and experience one of two unique text "dungeons", built with a variety of puzzles using JavaScript. They are:  _101010_ if the player is Chaos, _Court of the Blizzard Queen_ if the player is Order.
+4. art, music and sound update -- after 11/20/17  
 after game jam
 
 
@@ -50,9 +50,8 @@ _You can contact the developers if you have an problems with this program. james
 
 #### License
 
-*Determine the license under which this application can be used.*
-
-# Specs
+*This program uses the MIT license.*
+## Specs
 | Spec                                                                                                                    | Example Input:                                            | Example Output:                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | The program presents the user with a form where they can enter their name.                                          | User enters the name "Jose"                               | The user's name appears in text throughout the story.                                                                                       |
