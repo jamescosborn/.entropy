@@ -1,6 +1,6 @@
 # .entropy
 
-#### _An interactive cyberpunk short story where the user can enter a name, choose between the path of Chaos or Order, and receive one of two endings based on their choices throughout the story._
+#### _An interactive cyberpunk short story where the user can enter a name, choose between the paths of either Chaos or Order, and receive one of two endings based on their choices throughout the story._
 
 #### James Osborn, _Project Lead, Writing_
 #### Scott Reichert, _Design/Production, Writing_
@@ -11,7 +11,7 @@
 
 _.entropy is an interactive cyberpunk short story that focuses on the themes of chaos and order. The player is first presented with an intro that sets up the world and story, then they are given a few choices to create a character._
 
-_On the character creation page, the user must choose between one of two paths, Chaos and Order, and then they must enter a name. The name the user enters will appear at certain points throughout the story. The path the player chooses will have impact on the story text, choices, and outcome later on. The user must select a path, and enter a name (1 or more characters, 40 max) to continue._
+_On the character creation page, the user must choose their path, then enter a name. The path the player chooses will have impact on the story text, choices, and outcome. The name the user enters will appear at certain points throughout the story. The user must select a path and enter a name (1 or more characters, 40 max) in order to continue._
 
 <!-- _As the user progresses through the story, there is a glyph on the side of the page that links to a glossary of cyberpunk terms. If the user is unsure of a certain word, they can use this glossary to get a better understanding._ -->
 
