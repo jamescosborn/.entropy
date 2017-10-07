@@ -48,7 +48,7 @@
         </div>
         </br>
         </br>
-        <button id="character-submit" style="display: none" type="submit" class="btn btn-primary btn-lg btn-block player-choice" value="#scene-A">Submit</button>
+        <button id="character-submit" style="display: none" type="submit" class="btn btn-primary btn-lg btn-block player-choice btn-rounded" value="#scene-A">Submit</button>
         <!-- <button id="character-submit" style="display: none" type="submit" class="btn btn-primary btn-lg btn-block spirit-animal">Submit</button> -->
       </form>
     </div>
@@ -63,7 +63,7 @@
         <p>Your stomach flapjacks. Fear slowly starts to creep in.</p>
         <p>'<span class="player-name"></span>,' your trapper keeper chimes. It's Nia. 'I heard the news. Are you alright?'</p>
         <p><span needsFlag = "flag-chaos">"Nia, stop listening," you say. Pesky A.I.</span><span needsFlag = "flag-order">"I'm ok, Nia, thank you. What's the global feed saying?" you ask.</span></p>
-        <span needsFlag = "flag-order"><p>'0 hits' Nia replies.</p></span>
+        <span needsFlag = "flag-order"><p>'SCorp blames Planet Zeus' Nia replies.</p></span>
         <p>The neural link, AKA "the brain potato," is arguably the most important innovation of the 21st century. No longer is nature the gatekeeper to untapped potential. The potato allows users to access, store, and recall any data type instantaneously. Rich, poor, young, old… everyone has one these days. Most get the implant directly after birth.</p>
         <p>You can’t help but wonder… Will you be safe?</p>
         <p>"Time to begin work <span class="player-name"></span>!" the trapper keeper chimes as the clock read 8am.</p>
@@ -73,8 +73,57 @@
         <p>Or what about your old academy contact <span class="kowabunga">Zephyr</span>? You suspect she's a pirate cyberframe user<span needsFlag="flag-chaos"> like you - a <span class="shadow">framer.</span></span><span needsFlag="flag-order">. She's never done you wrong though.</span> Likes to talk conspiracy theories after a few sakes.</p>
       </div>
       <button type="button" class="player-choice btn-primary btn-lg" value="#scene-B">Meet Gabe at the bar after work</button>
+      <button type="button" class="player-choice btn-primary btn-lg btn-rounded" value="#scene-T">Text Tony</button>
       <button type="button" class="player-choice btn-danger btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
       <!-- <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C"><span class="glyphicon glyphicon-search" aria-hidden="false"></span>GlossARRYYYYYYYYYYYYY</button> -->
+    </div>
+    <!-- Scene T Tony time -->
+    <div class="scene" id="scene-T">
+      <h1 class="customfont">TonyB</h1>
+      <div class="textbox">
+      </br>
+      </br>
+      </div>
+      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-T2">Hey Tony</button>
+      <button type="button" class="player-choice btn-danger btn-lg" value="#scene-T2">Yo asshole, you owe me 20 bitcoins.</button>
+    </div>
+    <!-- Scene T2: Tony's Response -->
+    <div class="scene" id="scene-T2">
+      <h1 class="customfont">TonyB</h1>
+      <div class="textbox">
+        </br>
+        <h2>TonyB: Hey <span class="player-name"></span>!! What's up?</h2>
+        <h2>I'm kind of busy...</h2>
+        </br>
+        </br>
+      </div>
+      <button type="button" addFlag="nice-to-tony" class="player-choice btn-primary btn-lg" value="#scene-T3">Just wanted to see if you're ok. This Crash stuff is crazy, huh?</button>
+      <button type="button" addFlag="mean-to-tony" class="player-choice btn-danger btn-lg" value="#scene-T3">I want my bitcoin. Never buying you drinks again.</button>
+    </div>
+    <!-- T3: Rise of the Tonys -->
+    <div class="scene" id="scene-T3">
+      <h1 class="customfont">TonyB</h1>
+      <div class="textbox">
+        </br>
+        <span needsFlag="nice-to-tony"><h3>TonyB: Oh. Yeah, it's pretty crazy out there right now.</h3><h3>Heard on the viddy there is riots in the lower city.</h3><h3>Thanks for checking in. You stay safe out there, <span class="player-name"></span>!</h2></span>
+        <span needsFlag="mean-to-tony"><h3>TonyB: Wow. You're worried about 20 bitcoins</h3><h3>at a time like this? Fine. I'll drop by yours later.</h3></span>
+        </br>
+        </br>
+      </div>
+      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-A2">Later.</button>
+      <button type="button" needsFlag="mean-to-tony" class="player-choice btn-danger btn-lg" value="#scene-A2">Get me my money.</button>
+      </div>
+    <div class="scene" id="scene-A2">
+      <h1 class="customfont">SCorp News Room, Velvet City (District 42) 8:03 a.m.</h1>
+      <div class="textbox">
+        </br>
+        <p>Maybe <span class="order-color">Gabe</span> would know something? You've known him long time, he's a chummer. He's also a bartender, so he might have some decent intel.<p>
+        <p>Or what about your old academy contact <span class="kowabunga">Zephyr</span>? You suspect she's a pirate cyberframe user<span needsFlag="flag-chaos"> like you - a <span class="shadow">framer.</span></span><span needsFlag="flag-order">. She's never done you wrong though.</span> Likes to talk conspiracy theories after a few sakes.</p>
+        </br>
+        </br>
+      </div>
+      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-B">Meet Gabe at the bar after work</button>
+      <button type="button" class="player-choice btn-danger btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
     </div>
     <!--Scene B  Bar -->
     <div class="scene" id="scene-B">
@@ -91,12 +140,12 @@
 
         <p>“Someone's been looking for you,” Gabe says as he walks a little closer. Bach's Prelude in C minor plays in the background.</p>
 
-        <p>“What can I say, I'm popular,” you say, taking a drink. Gabe reaches under the counter and produces a small storage unit with ornate design. It has the text <span class="order-color">#<span class="player-name"></span>: ENCRYPTED</span> displayed on a mini LED screen.</p>
+        <p>“What can I say, I'm popular,” you say, taking a drink. Gabe reaches under the counter and produces a small storage unit with an ornate design. It has the text <span class="order-color">#<span class="player-name"></span>: ENCRYPTED</span> displayed on a mini LED screen.</p>
 
         <p>“Strange looking one. All sorts of implants, black trench coat, mirrored eyes... He said that if I saw you, I should give you this. Seems a little sketchy, <span class="player-name"></span>." Gabe explained.</p>
 
-        <p>You nod. "All good, Gabe. Aces.” Gabe hands you the storage unit.</p>
-        <p>You open the unit and retreive a small phys drive. After pulling the contents, you see there is only one file, an audio file. "<i>SCorp Bionetics, 10.4.99, Icarus commit #8991,</i>" The voice had heavy vocal distortion. That's it. You scan around the bar to see if there's anyone watching you. Time to get home.</p>
+        <p>You reassure him, "All good, Gabe. Aces.” Gabe hands you the storage unit.</p>
+        <p>You open the unit and retreive a small phys drive. After pulling the contents, you see there is only one file, an audio file. The voice has heavy vocal distortion: "<i class="shady">SCorp Bionetics, 10.4.99, Icarus commit #8991,</i>". That's it. You scan around the bar to see if there's anyone watching you. Time to get home.</p>
         <p>You finish your drink and settle up with Gabe. '<i>Hurdy Gurdy Man</i>' is playing on the juke as you walk out the door into the polluted dusk.</p>
       </div>
       <button type="button" class="player-choice btn-primary btn-lg" value="#scene-D">Head back to your apartment.</button>
@@ -131,10 +180,10 @@
         <p>A bug. A nasty one. And even worse, SCorp knew it was going to happen, and they did nothing to stop it.</p>
         <p>This could be the end of SCorp if anyone finds out…</p>
         <p>"You have a new message, <span class="player-name"></span>," chimes your Trapper Keeper.</p>
-        <p>They call themselves <span class="journalist"><strong>Oshi</strong></span>… “You have the information I need. Help me change the world.”</p>
+        <p>They call themselves <span class="oshi"><strong>Oshi</strong></span>… “You have the information I need. Help me change the world.”</p>
       </div>
-      <button addflag="info-given" type="button" class="player-choice btn-primary btn-lg" value="#scene-F">Send information</button>
       <button addflag="info-kept" type="button" class="player-choice btn-primary btn-lg" value="#scene-E">Don't Send information</button>
+      <button addflag="info-given" type="button" class="player-choice btn-danger btn-lg" value="#scene-F">Send information</button>
     </div>
     <!--Scene E  -->
     <div class="scene" id="scene-E">
@@ -185,17 +234,18 @@
 
         <p>You arrive at Block E, 5th avenue access hatch and key in the code <i>“xeon”.</i></p>
 
-        <p>You step into the small dimly lit room.</p>
+        <p>You step into the small dimly lit room. In the corner, a man in a purple hoodie is leaning against the wall. He takes down his hood.</p>
 
-        <p><i>“We need to talk”</i> you say to the journalist.</p>
+        <p><i>“Hello, <span class="player-name"></span>. My name is <span class="oshi">Oshi</span>. I'm with an organization called the Watchers. We need to talk,”</i> the journalist says to you.</p>
 
-        <p><i>“Then talk”</i> he replies.</p>
+        <p>“Then talk,” you reply.</p>
 
-        <p>You two discuss the need for a New World Order. You both agree that SCorp intentionally released faulty software and needs to be held accountable. Yet, you fear that the panic incited could cause global pandemonium. While the journalist seems intent on setting the world ablaze… you still have pause. Will you help the journalist expose the truth?</p>
+        <p>"It was all SCorp. They pushed a blank master copy on millions of people, and now they won't own up to their mistake. And it seems you have the proof." Could it be that horribly simple?</p>
+        <p>People need to know, but you fear that the panic incited could cause global pandemonium. While the journalist seems intent on setting the world ablaze… you still have pause. Will you help the journalist expose the truth?</p>
         <p>Or maybe it’s not too late to make nice with SCorp.</p>
       </div>
-        <button needsflag="info-given" type="button" class="player-choice btn-primary btn-lg" value="#ending-B">Expose the truth with him.</button>
         <button needsflag="info-kept" type="button" class="player-choice btn-primary btn-lg" value="#ending-A">Turn him in.</button>
+        <button needsflag="info-given" type="button" class="player-choice btn-danger btn-lg" value="#ending-B">Expose the truth with him.</button>
 
     </div>
     <!--Ending 1  -->

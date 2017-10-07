@@ -1,8 +1,6 @@
 /*Main Color Control*/
 :root {
   --col-white: #fff;
-  --col-black: rgb(0, 0, 0);
-  --col-oshi: rgb(236, 7, 234);
   --col-1: rgb(182, 117, 240);
   --col-2: rgb(57, 85, 230);
   --col-bg: rgb(34, 31, 43);
@@ -16,20 +14,8 @@ body {
   background-color: var(--col-bg);
 }
 
-.bump {
-  margin-top: 25px;
-}
-
-.smaller-image {
-  image-resolution: 75%;
-}
-
 .kowabunga {
   color: red;
-}
-
-.order-color {
-  color: blue;
 }
 
 /*Override Bootstrap form colors*/
@@ -70,10 +56,10 @@ body {
   padding: 50px;
   min-height: 100%;
   margin-top: 50px;
+  margin-bottom: 100px;
   background-color: var(--col-bg3);
   border-color: var(--col-1));
   border-width: thin;
-  margin-bottom: 50px;
 }
 
 .textbox {
@@ -109,8 +95,6 @@ body {
   margin: auto;
   height: auto;
   width: 100%;
-}
-
 }
 
 .blockquote {
@@ -149,15 +133,23 @@ body {
   background-color: red;
 }
 
+.order-color {
+  color: blue;
+}
+
 .shadow {
   text-shadow: 1px 2px 10px red;
 }
 
-.journalist {
-  color: var(--col-oshi);
-  text-shadow: 1px 2px 10px black;
+.shady {
+  text-shadow: 10px 10px 10px black;
 }
 
-.lign-up {
-    length: 500px;
+.btn-round {
+  border-radius: 15px 50px;
+}
+
+.oshi {
+  color: rgb(255, 22, 250);
+  text-shadow: 10px 10px 10px purple;
 }

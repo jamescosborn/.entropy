@@ -37,8 +37,8 @@ __Original sounds__ hoverbike1.mp3 now plays whenever the player starts their ho
 2. glossary update -- ?  
 __glossary glyph__ a book glyph linking to a glossary of cyberpunk terms will hug the right side of the page, following the player as they scroll up and down
 
-3. dungeons update -- ?  
-__2 unique dungeons__ depending on if the player is Chaos or Order, they will be given the option to hack in to FrameWorld and experience one of two unique text "dungeons", containing a  variety of puzzles built with  JavaScript. They are:  _101010_ if the player is Chaos, _Court of the Blizzard Queen_ if the player is Order.
+3. dungeon update -- ?  
+__101010 dungeon__ depending on if the player is Order or Chaos, they will be given the option to hack in to FrameWorld and experience a unique text "dungeon", containing a variety of puzzles built with  JavaScript. _101010_ you are trapped in a dark corner of FrameWorld by the Super AI Summer Child. Using the help of another mysterious Super AI, Tron, you must escape Summer's Madhouse with your life and mind intact.
 4. art, music and sound update -- after 11/20/17  
 after game jam
 
