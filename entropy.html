@@ -29,13 +29,13 @@
         <div class="row">
           <div class="character-type col-sm-6">
             <div class="character-text">
-              <p>You believe that nothing stays gold. The confused, unorganized state of primordial matter amuses you. Creation and destruction are part of the natural order. The world is a can full of gas. You’ve got a hand full of matches.</p>
+              <p>You trust that nothing stays gold. The confused, unorganized state of primordial matter amuses you. Creation and destruction are part of the natural order. The world is a can full of gas. You’ve got a hand full of matches.</p>
             </div>
             <button type="button" addflag="flag-chaos" removeflag="flag-order" class="btn btn-primary btn-lg btn-block option" id="chaos">Chaos</button>
           </div>
           <div class="character-type col-sm-6">
             <div class="character-text">
-              <p>You believe everything has a place and purpose. The pattern, structure, and repetition of everyday life make you feel safe. The world can be a scary place, so you follow the rules.</p>
+              <p>You believe everything has a place and purpose. The pattern, structure, and repetition of everyday life make you feel safe. The world today is a dangerous place, so you follow the rules. Those that step out of line come to regret it.</p>
             </div>
             <button type="button" addflag="flag-order" removeflag="flag-chaos" class="btn btn-danger btn-lg btn-block option">Order</button>
           </div>
@@ -55,32 +55,34 @@
     <!-- Hidden divs -->
     <!--Scene A  -->
     <div class="scene" id="scene-A">
-      <h1 class="customfont">SCorp News Room, Velvet City (District 42) 12:55 p.m.</h1>
+      <h1 class="customfont">SCorp News Room, Velvet City (District 42) 7:55 a.m.</h1>
       <div class="textbox">
         <!-- <span class="glyphicon glyphicon-book"></span> How can we hook up this glyph? What am I doing wrong here? Specs: hugging the right side of the page, small clickable book glyph, no actual button, so outside of the box model hugging the scroll bar basically, with something like paralax perhaps. Aces. -->
-        <p>You sit alone at your desk and count the minutes. Five minutes before you need to get back on the beat.</p>
+        <p>You sit alone at your desk and count the minutes. Five minutes before you need to get on the beat. The office is half empty today.</p>
         <p>As you lean back in your chair and start to count the ceiling tiles, your trapper keeper chimes a developing news alert. <div class="blockquote"><strong>"Neural Crash causes millions to fall into coma - Is your brain potato safe?"</strong><footer class="blockquote-footer">5 million views</footer></div></p>
-        <p>Your stomach flapjacks. Fear slowly starts to creep in and shake you to the core.</p>
-        <p>''<span class="player-name"></span>,' your trapper keeper chimes. It's This is real bad.</p>
-        <p>The neural link, AKA "the brain potato," is arguably the most important innovation of the 21st century. No longer is nature the gatekeeper to untapped potential.</p>
-        <p>The brain potato levels the playing field. It allows users to access, store, and recall  any data type instantaneously. Rich, poor, young, old… everyone has one these days. Most get the implant directly after birth.</p>
+        <p>Your stomach flapjacks. Fear slowly starts to creep in.</p>
+        <p>''<span class="player-name"></span>,' your trapper keeper chimes. It's Nia. 'I heard the news. Are you alright?'</p>
+        <p>"Nia, stop listening," you say. Pesky A.I.</p>
+        <p>The neural link, AKA "the brain potato," is arguably the most important innovation of the 21st century. No longer is nature the gatekeeper to untapped potential. The potato allows users to access, store, and recall any data type instantaneously. Rich, poor, young, old… everyone has one these days. Most get the implant directly after birth.</p>
         <p>You can’t help but wonder… Will you be safe?</p>
         <p>"Time to begin work <span class="player-name"></span>!" the trapper keeper chimes as the clock read 8am.</p>
-        <p>“Same stuff… different day,” you mutter to yourself. The last thing you want to do is spend all day writing full pieces. All you can think about is the event the Journalists are calling “The Crash.”
-        You reach for your trapper keeper to get started for the day.. Then you have a thought… maybe you should reach out to some contacts… see if you can learn more about the crash.</p>
+        <p><span class needsFlag = "flag-chaos">“Same stuff… different day,” you mutter to yourself. The last thing you want to do is spend all day writing full pieces. All you can think about is the event the Watchers are calling “The Crash.”</span><span class needsFlag = "flag-order">You try to clear your mind of the news, opening applications and going through your daily routine to prepare for work.</span></p>
+        <p>Today you need to write an album review for the Screaming Valkyries latest, <i>Null Dreams</i>. There's the blog post, the copy, the images, an interview with Naoki Koda at 3, another piece on Robo-Dogs going haywire. It's going to be a brutally busy day. Then you have a thought: maybe you should reach out to some contacts, see if you can learn more about the Crash?</p>
+        <p>Maybe <span class="kowabunga">Zephyr</span> would know something? You suspect he's a framer too, or a pirate cyberframe user. Likes to talk conspiracy theories after a few Kirins.</p>
+        <p>Or what about <span class="order-color">Gabe</span>? Gabe's more trustworthy. You've known him longer, and he gives you less of a bad vibe.<p>
       </div>
       <button type="button" addflag="has-sandwich"  class="player-choice btn-primary btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
-      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-B">Focus on work</button>
-      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C"><span class="glyphicon glyphicon-search" aria-hidden="false"></span>GlossARRYYYYYYYYYYYYY</button>
+      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-B">Meet Gabe at bar after work</button>
+      <!-- <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C"><span class="glyphicon glyphicon-search" aria-hidden="false"></span>GlossARRYYYYYYYYYYYYY</button> -->
     </div>
-    <!--Scene B  -->
+    <!--Scene B  Bar -->
     <div class="scene" id="scene-B">
       <h1 class="customfont">The Grisly Grott0</h1>
       <div class="textbox">
         <img class="default" src="img/ruins_2.jpg">
-        <p>You really don’t want to get involved with something like that. If it was important, your boss would be hyping it just like the CyberBall playoffs he had you covering last week.</p>
-<span class="spirit-animal"></span>
-        <p><span class needsFlag = "flag-order">5:00 p.m. Everyone usually clocks out at 4:45, but you prefer to do things by the book.</span><span class needsFlag = "flag-chaos">4:45 p.m., technically clocking out on time, but not exactly aces on your quarterly.</span> The world's going mad trying to find out what happened, and you decide to hit your local dive bar, the Grisly Grott0. Sort of classy joint. They played music from long before the Restructuring.</p>
+        <p>On second thought, you really don’t want to get involved with something like that. If it was important, your boss would be hyping it just like the CyberBall playoffs he had you covering last week.</p>
+<!-- <span class="spirit-animal"></span> -->
+        <p><span class needsFlag = "flag-order">5:00 p.m. Everyone usually clocks out at 4:45, but you prefer to do things by the book.</span><span class needsFlag = "flag-chaos">4:45 p.m., technically clocking out on time, but not exactly aces on your quarterly.</span> It seems like the world's going mad trying to figure out what happened. You decide to hit your local dive bar, the Grisly Grott0. Sort of a classy joint. They play music from long before the Reformatting.</p>
 
         <p>After arriving, you get your usual, a cold glass of Kirin, then settle in at the bar. What a mess of a day, what with half the newsroom empty because of the Crash. Did <i>they</i> crash? Or someone they loved? You shudder. Gabe the bartender wasn’t as chatty as he usually was, instead just polishing the glasses. Then he leans in and says, “Think maybe I got something for you, Newsy."</p>
 
@@ -88,7 +90,7 @@
 
         <p>“Someone's been looking for you.” Gabe says as he walks a little closer. Bach's Prelude in C minor in the background.</p>
 
-        <p>“What can I say, I'm popular.” you say, not all that interested. Gabe reaches under the counter and produces a small storage unit with ornate design. It has the text <span class="kowabunga">#<span class="player-name"></span>: ENCRYPTED</span> displayed on a mini LED screen.</p>
+        <p>“What can I say, I'm popular.” you say, not all that interested. Gabe reaches under the counter and produces a small storage unit with ornate design. It has the text <span class="order-color">#<span class="player-name"></span>: ENCRYPTED</span> displayed on a mini LED screen.</p>
 
         <p>“Someone came by earlier. Strange looking one. Mangy beard, brown trench coat, yellow teeth... He said that if I saw you, I should give you this.” Gabe explained.</p>
         <p>A phys drive? Why wouldn't they just send me a message through the potatoes? You reach over to take the drive. When you try to take it Gabe holds on to it and gives you a stern look.</p>
@@ -99,11 +101,12 @@
       </div>
       <button type="button" class="player-choice btn-primary btn-lg" value="#scene-D">REEEEEE</button>
     </div>
-    <!--Scene C  -->
+    <!--Scene C  Park -->
     <div class="scene" id="scene-C">
-      <h1 class="customfont" >Westwood Park - 5:30 p.m.</h1>
+      <h1 class="customfont" >Westwood Park - 12:24 p.m.</h1>
       <div class="textbox">
-        <p>The Crash is still in your mind; you can’t stop thinking about it. You go to Westwood Park to try to relax, but the old, dying trees and tainted sunlight give you no comfort. People mill by at a listless pace, gas masks over their faces.</p>
+        <img class="default" src="img/park_3.jpg">
+        <p>You can’t stop thinking about the Crash, and feel like you need to know more. You go to Westwood Park to try to relax, but the old, dying trees and tainted sunlight give you no comfort. People mill by at a listless pace, gas masks over their faces.</p>
         <p>Why did all those people crash? Is it going to happen again, or to <i>you</i>? You feel sick, uneasy, like you have to get to the bottom of this. One of your old chummers from academy might know. You heard he’d got a pretty nice gig with SCorp as an ICE controller. The park is now deserted, and seems sad, haunted. You stomp at a rat that scurries by your feet.</p>
         <p>Ehh, it’s worth a shot. You call up Zephyr Dionikes on your vidphone.</p>
         <p>“<span class="player-name"></span>, what’s going down?”</p>
@@ -198,9 +201,10 @@
       <p>The Journalist's lack of hygiene offended you immensely. But what happened after that was much worse. You witnessed him meticulously licking his fingers while eating a plate of shrimp. The act flayed all your senses. So you made the decision to turn him in.</p>
       <p>Several android enforcers enter the bar and take seats all around you. You order a drink for the one sitting next to you, saying nothing.</p>
       <p><i>"You did the right thing,"</i> they say.<p>
-      <p><i>"I figured the evil I know is better than the one I didn't,"</i> you say.</p>
+      <p>"I figure the evil I know is better than the one I don't," you say.</p>
       <p>You spend a few more hours at the bar, then head back home. You turn on your favorite reality TV show, "Climbing for Dollars."</p>
       <p>It doesn't give you much satisfaction. You snap off the TV, climb in to bed, and think about the madness you discovered today.</p>
+      <img class="default" src="img/hallway_6.jpg">
       <h4>The End?</h4>
       </div>
     </div>
@@ -215,9 +219,10 @@
       <p>You dismount your bike, take off your helmet, and stare down your oppressors.
       Androids in black suits begin piling out of the vehicles. How do so many fit inside?</p>
       <p>“People deserve to know!” you shout, “We’re awake now!”</p>
-      <p>They form a circle surrounding you. There must be 100… They stand alert, silent.</p>
+      <p>They form up, surrounding you. There must be 100… They stand alert, silent.</p>
       <p>Was it worth it? This is what humanity needed to expose SCorp, you tell yourself. Millions of brains wiped by a blank master copy in the blink of an eye. For what? The potatoes made life better, but now...</p>
       <p>Whatever happens to you, you feel like the world is entering a strange, new age, and that you and the other Watchers were the ushers to this great transformation.</p>
+      <img class="default" src="img/cityscape_3.jpg">
       <h4>The End?</h4>
       </div>
     </div>

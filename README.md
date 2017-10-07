@@ -2,20 +2,20 @@
 
 #### _An interactive cyberpunk short story where the user can enter a name, choose between two paths of Chaos and Order, and receive one of two endings based on their choices._
 
-#### James Osborn, _Project Lead_
-#### Scott Reichert, _Design/Production_
-#### Elliot Buren, _UI Lead_
-#### Joseph Tomlinson, _Engineering Lead_
+#### James Osborn, _Project Lead, Writing_
+#### Scott Reichert, _Design/Production, Writing_
+#### Elliot Buren, _UI, Writing_
+#### Joseph Tomlinson, _Engineering, Writing_
 
 ## Description
 
-_.entropy is an interactive cyberpunk story that focuses on the themes of chaos and order. The player is first presented with an intro that sets up the world and story, then they are taken to a character creation page._
+_.entropy is an interactive cyberpunk short story that focuses on the themes of chaos and order. The player is first presented with an intro that sets up the world and story, then they are given a few choices to create a character._
 
-_On the character creation page, the user must choose between one of two paths, Chaos and Order, and then must enter a name. The choice the player makes here will have some impact on the story later on. The name the user selects will appear at certain points throughout the story. The user must select a path, and enter a name (1 or more characters, 40 max)._
+_On the character creation page, the user must choose between one of two paths, Chaos and Order, and then they must enter a name. The name the user enters will appear at certain points throughout the story. The path the player chooses will have impact on the story text, choices, and outcome later on. The user must select a path, and enter a name (1 or more characters, 40 max) to continue._
 
-_As the user progresses through the story, there is a glyph on the side of the page that links to a glossary of cyberpunk terms. If the user is unsure of a certain word, they can use this glossary to get a better understanding._
+<!-- _As the user progresses through the story, there is a glyph on the side of the page that links to a glossary of cyberpunk terms. If the user is unsure of a certain word, they can use this glossary to get a better understanding._ -->
 
-_There is a creation page followed by 7 unique scenes, in which the user will be tasked with making a variety of decisions. Depending on the choices they make throughout the story, there will be some impact on the outcome of the story._
+_The character creation page is followed by 7 unique scenes in which the user will be tasked with making a variety of decisions. Depending on the decisions they make throughout the story, there will be some impact on the outcome of the story._
 
 _Once the user reaches the final scene, they are given a difficult choice between 2 different ending OR presented with only one option, depending on the choices they made throughout the story._
 
@@ -37,7 +37,7 @@ __Original sounds__ hoverbike1.mp3 now plays whenever the player starts their ho
 __glossary glyph__ a book glyph linking to a glossary of cyberpunk terms will hug the right side of the page, following the player as they scroll up and down
 
 3. dungeons update -- ?  
-__2 unique dungeons__ depending on if the player is Order or Chaos, they will be given the option to hack in to FrameWorld and experience one of two unique text "dungeons", built with a variety of puzzles using JavaScript. They are:  _101010_ if the player is Chaos, _Court of the Blizzard Queen_ if the player is Order.
+__2 unique dungeons__ depending on if the player is Chaos or Order, they will be given the option to hack in to FrameWorld and experience one of two unique text "dungeons", containing a  variety of puzzles built with  JavaScript. They are:  _101010_ if the player is Chaos, _Court of the Blizzard Queen_ if the player is Order.
 4. art, music and sound update -- after 11/20/17  
 after game jam
 
@@ -47,6 +47,17 @@ after game jam
 _You can contact the developers if you have an problems with this program. jamescarlosborn@gmail.com_  
 
 ## Technologies Used
+
+Git  
+Atom  
+HTML  
+CSS  
+JavaScript  
+JQuery  
+Chrome  
+Garry's Mod  
+Abelton  
+
 
 #### License
 
