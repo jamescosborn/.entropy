@@ -1,6 +1,6 @@
 # .entropy
 
-#### _An interactive cyberpunk short story where the user can enter a name, choose between two paths of Chaos and Order, and receive one of two endings based on their choices._
+#### _An interactive cyberpunk short story where the user can enter a name, choose between the path of Chaos or Order, and receive one of two endings based on their choices throughout the story._
 
 #### James Osborn, _Project Lead, Writing_
 #### Scott Reichert, _Design/Production, Writing_
