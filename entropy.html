@@ -15,25 +15,25 @@
     <!-- Intro -->
     <div class="container">
       <blockquote class="blockquote hidden quote" id="intro-quote">
-        <p class="mb-0">Who controls the past now controls the future. Who controls the present now controls the past.</p>
-        <footer class="blockquote-footer">Rage Against the Machine (1999) <cite title="Source Title">Battle for LA</cite></footer>
+        <p class="mb-0">Who controls the past now controls the future. Who controls the present now controls the past. Who controls the present now?</p>
+        <footer class="blockquote-footer">Rage Against the Machine (1999) <cite title="Source Title">Battle for Los Angeles</cite></footer>
       </blockquote>
       <div class="scene" id="scene-character-creator">
         <h1 class="customfont text-center">.entropy</h1>
         <img class="default" src="img/hallway_1.jpg">
     <!-- Character Creator -->
       </br>
-      <p> What does it mean to be human? How do we decide which path to take along the journey of our lives? On the streets of Velvet City, a homeless android begs for enough scripcoin to buy himself some lazy code. Around the corner, an SCorp enforcer takes down a Terminal Tom for peddling illegal code. The city is full of stories.... this is yours.</p>
+      <p> What does it mean to be human? How do we decide which path to take along the journey of our lives? On the streets of Velvet City, a wayward android scrounges for enough bitcoin to buy himself some lazy code. Around the corner, an SCorp enforcer takes down a Terminal Tom for peddling illegal code. The city is full of stories.... this is yours.</p>
       </br>
       <form id="form-character">
         <div class="row">
-          <div class="character-type col-sm-6">
+          <div class="character-type col-sm-6 red-background">
             <div class="character-text">
-              <p>You trust that nothing stays gold. The confused, unorganized state of primordial matter amuses you. Creation and destruction are part of the natural order. The world is a can full of gas. You’ve got a hand full of matches.</p>
+              <p>You trust that nothing stays gold. The confused, unorganized state of primordial matter amuses you. Creation and destruction are both part of the natural order. The world is a can full of gas. You’ve got a hand full of matches.</p>
             </div>
             <button type="button" addflag="flag-chaos" removeflag="flag-order" class="btn btn-primary btn-lg btn-block option" id="chaos">Chaos</button>
           </div>
-          <div class="character-type col-sm-6">
+          <div class="character-type col-sm-6 blue-background">
             <div class="character-text">
               <p>You believe everything has a place and purpose. The pattern, structure, and repetition of everyday life make you feel safe. The world today is a dangerous place, so you follow the rules. Those that step out of line come to regret it.</p>
             </div>
@@ -49,7 +49,7 @@
         </br>
         </br>
         <button id="character-submit" style="display: none" type="submit" class="btn btn-primary btn-lg btn-block player-choice" value="#scene-A">Submit</button>
-        <button id="character-submit" style="display: none" type="submit" class="btn btn-primary btn-lg btn-block spirit-animal">Submit</button>
+        <!-- <button id="character-submit" style="display: none" type="submit" class="btn btn-primary btn-lg btn-block spirit-animal">Submit</button> -->
       </form>
     </div>
     <!-- Hidden divs -->
@@ -61,17 +61,18 @@
         <p>You sit alone at your desk and count the minutes. Five minutes before you need to get on the beat. The office is half empty today.</p>
         <p>As you lean back in your chair and start to count the ceiling tiles, your trapper keeper chimes a developing news alert. <div class="blockquote"><strong>"Neural Crash causes millions to fall into coma - Is your brain potato safe?"</strong><footer class="blockquote-footer">5 million views</footer></div></p>
         <p>Your stomach flapjacks. Fear slowly starts to creep in.</p>
-        <p>''<span class="player-name"></span>,' your trapper keeper chimes. It's Nia. 'I heard the news. Are you alright?'</p>
-        <p>"Nia, stop listening," you say. Pesky A.I.</p>
+        <p>'<span class="player-name"></span>,' your trapper keeper chimes. It's Nia. 'I heard the news. Are you alright?'</p>
+        <p><span needsFlag = "flag-chaos">"Nia, stop listening," you say. Pesky A.I.</span><span needsFlag = "flag-order">"I'm ok, Nia, thank you. What's the global feed saying?" you ask.</span></p>
+        <span needsFlag = "flag-order">'0 hits' Nia replies.</span>
         <p>The neural link, AKA "the brain potato," is arguably the most important innovation of the 21st century. No longer is nature the gatekeeper to untapped potential. The potato allows users to access, store, and recall any data type instantaneously. Rich, poor, young, old… everyone has one these days. Most get the implant directly after birth.</p>
         <p>You can’t help but wonder… Will you be safe?</p>
         <p>"Time to begin work <span class="player-name"></span>!" the trapper keeper chimes as the clock read 8am.</p>
         <p><span class needsFlag = "flag-chaos">“Same stuff… different day,” you mutter to yourself. The last thing you want to do is spend all day writing full pieces. All you can think about is the event the Watchers are calling “The Crash.”</span><span class needsFlag = "flag-order">You try to clear your mind of the news, opening applications and going through your daily routine to prepare for work.</span></p>
-        <p>Today you need to write an album review for the Screaming Valkyries latest, <i>Null Dreams</i>. There's the blog post, the copy, the images, an interview with Naoki Koda at 3, another piece on Robo-Dogs going haywire. It's going to be a brutally busy day. Then you have a thought: maybe you should reach out to some contacts, see if you can learn more about the Crash?</p>
-        <p>Maybe <span class="kowabunga">Zephyr</span> would know something? You suspect he's a framer too, or a pirate cyberframe user. Likes to talk conspiracy theories after a few Kirins.</p>
-        <p>Or what about <span class="order-color">Gabe</span>? Gabe's more trustworthy. You've known him longer, and he gives you less of a bad vibe.<p>
+        <p>Today you need to write an album review for the Screaming Valkyries latest, <i>Null Dreams</i>. There's the blog post, the copy, the images, an interview with Naoki Koda at 3, another piece a new jewlery app for Robo-Dogs. It's going to be a brutally busy day. Then you have a thought: maybe you should reach out to some contacts, see if you can learn more about the Crash?</p>
+        <p>Maybe <span class="kowabunga">Zephyr</span> would know something? You suspect she's a pirate cyberframe user like you - a framer. Likes to talk conspiracy theories after a few Kirins.</p>
+        <p>Or what about <span class="order-color">Gabe</span>? Gabe's a little more trustworthy. You've known him longer, and he's a bartender so he might have some decent intel.<p>
       </div>
-      <button type="button" addflag="has-sandwich"  class="player-choice btn-primary btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
+      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
       <button type="button" class="player-choice btn-primary btn-lg" value="#scene-B">Meet Gabe at bar after work</button>
       <!-- <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C"><span class="glyphicon glyphicon-search" aria-hidden="false"></span>GlossARRYYYYYYYYYYYYY</button> -->
     </div>
@@ -80,7 +81,7 @@
       <h1 class="customfont">The Grisly Grott0</h1>
       <div class="textbox">
         <img class="default" src="img/ruins_2.jpg">
-        <p>On second thought, you really don’t want to get involved with something like that. If it was important, your boss would be hyping it just like the CyberBall playoffs he had you covering last week.</p>
+        </br>
 <!-- <span class="spirit-animal"></span> -->
         <p><span class needsFlag = "flag-order">5:00 p.m. Everyone usually clocks out at 4:45, but you prefer to do things by the book.</span><span class needsFlag = "flag-chaos">4:45 p.m., technically clocking out on time, but not exactly aces on your quarterly.</span> It seems like the world's going mad trying to figure out what happened. You decide to hit your local dive bar, the Grisly Grott0. Sort of a classy joint. They play music from long before the Reformatting.</p>
 
@@ -106,12 +107,13 @@
       <h1 class="customfont" >Westwood Park - 12:24 p.m.</h1>
       <div class="textbox">
         <img class="default" src="img/park_3.jpg">
+        </br>
         <p>You can’t stop thinking about the Crash, and feel like you need to know more. You go to Westwood Park to try to relax, but the old, dying trees and tainted sunlight give you no comfort. People mill by at a listless pace, gas masks over their faces.</p>
         <p>Why did all those people crash? Is it going to happen again, or to <i>you</i>? You feel sick, uneasy, like you have to get to the bottom of this. One of your old chummers from academy might know. You heard he’d got a pretty nice gig with SCorp as an ICE controller. The park is now deserted, and seems sad, haunted. You stomp at a rat that scurries by your feet.</p>
         <p>Ehh, it’s worth a shot. You call up Zephyr Dionikes on your vidphone.</p>
         <p>“<span class="player-name"></span>, what’s going down?”</p>
         <p>“Hey, Zephyr. You know anything about the Crash? I can’t stop thinking about it,” you say.</p>
-        <p>Zephyr stays silent for a few minutes. “<span class="player-name"></span>, don’t look too close." <p>That’s my advice. Go to your job tomorrow, try to be happy, find a date this weekend.”</p>
+        <p>Zephyr stays silent for a few moments. “<span class="player-name"></span>, don’t look too close." <p>That’s my advice. Go to your job tomorrow, try to be happy, find a date this weekend.”</p>
         <p>“Zeph, tell me. I need to know. What happened?”</p>
         <p>He takes a moment to rub his furrowed brow. <span class="kowabunga">ENCRYPTED</span> flashes onto the screen. “Fine, you asked for it. Look into SCorp's repositories for the latest firmware update.” The line disconnects... He looked really concerned. It’s been a long day. Whatever Zeph pointed me towards, it’s probably not good. Time to get back home. As you walk, you see someone down and out slumped next to a tree.</p>
       </div>

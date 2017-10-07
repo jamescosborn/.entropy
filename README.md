@@ -15,7 +15,7 @@ _On the character creation page, the user must choose between one of two paths, 
 
 <!-- _As the user progresses through the story, there is a glyph on the side of the page that links to a glossary of cyberpunk terms. If the user is unsure of a certain word, they can use this glossary to get a better understanding._ -->
 
-_The character creation page is followed by 7 unique scenes in which the user will be tasked with making a variety of decisions. Depending on the decisions they make throughout the story, there will be some impact on the outcome of the story._
+_The character creation page is followed by 7 unique scenes in which the user will be tasked with making a variety of decisions. Depending on the decisions they make throughout the story, there will be some impact on the outcome of the story. The story should take roughly 20-30 minutes to read from beginning to end, maybe a little longer._
 
 _Once the user reaches the final scene, they are given a difficult choice between 2 different ending OR presented with only one option, depending on the choices they made throughout the story._
 

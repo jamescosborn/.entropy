@@ -14,6 +14,10 @@ body {
   background-color: var(--col-bg);
 }
 
+.bump {
+  margin-top: 25px;
+}
+
 .smaller-image {
   image-resolution: 75%;
 }
@@ -67,6 +71,7 @@ body {
   background-color: var(--col-bg3);
   border-color: var(--col-1));
   border-width: thin;
+  margin-bottom: 50px;
 }
 
 .textbox {

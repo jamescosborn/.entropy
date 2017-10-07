@@ -22,7 +22,7 @@ Player.prototype.removeFlag = function(flag) {
 var player = new Player()
 
 $(document).ready(function() {
-
+  $(this).scrollTop(0);
   $("*[needsflag]").hide();
   $("*[needsflags]").hide();
 
@@ -37,6 +37,7 @@ $(document).ready(function() {
     $(".popover").fadeOut(fadeTime);
     setTimeout(function(){
       $(newClass).fadeIn(fadeTime)
+      $(this).scrollTop(0);
       swapWait = false;
     }, fadeTime);
   }
@@ -94,7 +95,7 @@ $(document).ready(function() {
     var self = $(this) // this controls specifically the clicked button
     var targetClass = self.val();
     updateFlags(self);
-    fadeSwap(".scene", targetClass, 1000);
+    fadeSwap(".scene", targetClass, 1500);
   })
 
   $(".option").click(function(){
@@ -106,7 +107,7 @@ $(document).ready(function() {
   });
 
 
-  var introfade = 100;
+  var introfade = 2500;
 
   $("#intro-quote").fadeIn(introfade*2);
 
