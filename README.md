@@ -2,10 +2,10 @@
 
 #### _An interactive cyberpunk short story where the user can enter a name, choose between the paths of either Chaos or Order, and receive one of two endings based on their choices throughout the story._
 
-#### James Osborn, _Project Lead, Writing_
-#### Scott Reichert, _Design/Production, Writing_
-#### Elliot Buren, _UI, Writing_
-#### Joseph Tomlinson, _Engineering, Writing_
+#### James Osborn, _Project Lead, Writer_
+#### Scott Reichert, _Design/Production Lead, Writer_
+#### Elliot Buren, _UI Lead, Writer_
+#### Joseph Tomlinson, _Engineering Lead, Writer_
 
 ## Description
 
