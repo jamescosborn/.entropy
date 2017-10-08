@@ -71,6 +71,7 @@ body {
 
 .player-choice {
   bottom: 10px;
+  border-radius: 15px 50px;
 }
 
 /*#push-up {
@@ -145,12 +146,24 @@ body {
   text-shadow: 0 0 6px rgb(255, 22, 250);
 }
 
-.btn-round {
+.mutate {
+  border-radius: 15px 50px;
+}
+
+.mutant-button1 {
+  border-radius: 15px 50px;
+  background: #757575;
+  /*padding: 20px;
+  width: 200px;
+  height: 150px;*/
+}
+
+.rounded-button {
   border-radius: 15px 50px;
 }
 
 .nia {
-  text-shadow: 4px 4px 5px blue;
+  text-shadow: 2px 2px 1px rgb(23, 25, 244);
 }
 
 .oshi {

@@ -22,8 +22,7 @@ _Once the user reaches the final scene, they are given a difficult choice betwee
 ## Known Bugs
 
 _Intro quote does not appear centered vertically on smaller monitors._
-_Glossary is broken_  
-_hoverbike1.mp3 does not play_  
+_Hovering over neutral and chaos buttons shows the wrong colors._  
 
 ## Expansions/Updates
 
@@ -32,14 +31,15 @@ __New name__ the story title has been changed to closer reflect the themes explo
 __Editted story text__ Shorten and condense the story text to make the story flow faster,  
 __apply the 'rule of 20'__ no scene should be longer than 20 lines of text, to speed up story flow  
 __Original screenshots__ taken from custom maps on Garry's Mod.    
-__Original sounds__ hoverbike1.mp3 now plays whenever the player starts their hoverbike, the 85 Wizzer.
 
 2. glossary update -- ?  
 __glossary glyph__ a book glyph linking to a glossary of cyberpunk terms will hug the right side of the page, following the player as they scroll up and down
+__new sounds__ will add original hoverbike and helicopter sounds
 
 3. dungeon update -- ?  
-__101010 dungeon__ depending on if the player is Order or Chaos, they will be given the option to hack in to FrameWorld and experience a unique text "dungeon", containing a variety of puzzles built with  JavaScript. _101010_ you are trapped in a dark corner of FrameWorld by the Super AI Summer Child. Using the help of another mysterious Super AI, Tron, you must escape Summer's Madhouse with your life and mind intact.
-4. art, music and sound update -- after 11/20/17  
+__101010 dungeon__ depending on if the player is Order or Chaos, they will be given the option to hack in to FrameWorld and experience a unique text "dungeon", containing a variety of puzzles built with  JavaScript. Story description: While searching for more info about the Crash, you become trapped in a dark corner of FrameWorld by a Super A.I. called "Summer Child." Using the help of another mysterious Super A.I., a T-Rex named "Tron," you must escape Summer's Madhouse with your life and mind intact.
+
+4. __art, music and sound update__ -- after 11/20/17  
 after game jam
 
 

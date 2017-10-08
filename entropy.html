@@ -72,9 +72,9 @@
         <p>Maybe <span class="order-color">Gabe</span> would know something? He's a long-time friend, a chummer. He's also a bartender, so he might have some decent intel.<p>
         <p>Or what about your old academy contact <span class="kowabunga">Zephyr</span>? You suspect she's a pirate cyberframe user<span needsFlag="flag-chaos"> like you - a <span class="shadow">framer.</span></span><span needsFlag="flag-order">. She's never done you wrong though.</span> Likes to talk conspiracy theories after a few sakes.</p>
       </div>
-      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-B">Meet Gabe at the bar after work</button>
-      <button type="button" class="player-choice btn-primary btn-lg btn-rounded" value="#scene-T">Text Tony</button>
-      <button type="button" class="player-choice btn-danger btn-lg" value="#scene-C">Send message to Contact: Zephyr</button>
+      <button type="button" class="player-choice btn-primary btn-lg mutate" value="#scene-B">Meet Gabe at the bar after work</button>
+      <button type="button" class="player-choice btn-danger btn-lg mutate" value="#scene-C">Send message to Contact: Zephyr</button>
+      <button type="button" class="player-choice btn-primary btn-lg mutant-button1" value="#scene-T">Text Tony</button>
       <!-- <button type="button" class="player-choice btn-primary btn-lg" value="#scene-C"><span class="glyphicon glyphicon-search" aria-hidden="false"></span>GlossARRYYYYYYYYYYYYY</button> -->
     </div>
     <!-- Scene T Tony time -->
@@ -174,9 +174,10 @@
     <div class="scene" id="scene-D">
       <h1 class="customfont">Roach Apartments, 6 p.m.</h1>
       <div class="textbox">
+        <img class="default" src="img/hallay_4.jpg">
         <p><span needsFlag = "flag-order">You try and focus on anything EXCEPT for the tip you just learned, but you can’t seem to push it out of your mind.</span><span needsFlag = "flag-chaos">This is the real story, you tell yourself, not some silly tale. You're going to get to the bottom of this.</span></p>
-        <p>“<i>Floor 59</i>” the mag lift announces. </p>
-        <p>You step into the desolate hall of your apartment floor and make your way to door 59e2. The room is nearly empty save a bed, a nightstand, and a vintage Felix the Cat alarm clock from the early '90s. The techno greasy glow of the magenta city scape illuminates the cold room. You take a moment and finally decide that you need to know what is being hidden from the public about “The Crash.”</p>
+        <p>“<span class="nia">Floor 4</span>” the mag lift announces. </p>
+        <p>You step into the desolate hall of your apartment floor and make your way to door D2. The room is nearly empty save a bed, a nightstand, and a vintage Felix the Cat alarm clock from the early '90s. The techno greasy glow of the magenta city scape illuminates the cold room. You take a moment and finally decide that you need to know what is being hidden from the public about “The Crash.”</p>
         <p>You set the brain potato to twice stuffed and frame jack into the SCorp repositories. You execute a bit of custom script and find something unusual. An error in the commit log for the latest neural link software update. There are several lines that are redacted. You dig deeper into the problem, only to discover the horrifying truth…</p>
         <p>A bug. A nasty one. And even worse, SCorp knew it was going to happen, and they did nothing to stop it.</p>
         <p>This could be the end of SCorp if anyone finds out…</p>
@@ -201,8 +202,8 @@
         <p><i>"Easy,"</i> the face says, from under a dark purple hood, <i>"I'm a friend. You must follow me."</i></p>
         <p>Seeing no other choice, you flee into the nefarious underground, away from the neon and harm, for now...</p>
       </div>
-      <button type="button" class="player-choice btn-primary btn-lg" value="#scene-G">Journalist Hideout</button>
-      <button type="button" class="btn-primary btn-lg" ata-container="body" data-toggle="popover" data-placement="right" data-content="Maybe you should stay put... you're kinda out of breath at this point">Keep Running</button>
+      <button type="button" class="player-choice btn-primary btn-lg mutant-button1" value="#scene-G">Journalist Hideout</button>
+      <button type="button" class="btn-danger btn-lg rounded-button" ata-container="body" data-toggle="popover" data-placement="right" data-content="Maybe you should stay put... you're kinda out of breath at this point">Keep Running</button>
     </div>
     <!--Scene F  -->
     <div class="scene" id="scene-F">
@@ -225,15 +226,16 @@
 
         <p><i>“Ditch the heat and meet me in The Velvet Underground. Block E, 5th avenue access hatch. Pass  code is xeon”</i></p>
       </div>
-      <button type="button" class="player-choice btn-primary btn-lg"  value="#scene-G">Meet the Journalist</button>
+      <button type="button" class="player-choice btn-primary btn-lg mutant-button1"  value="#scene-G">Meet the Journalist</button>
 
     </div>
     <!--Scene G  -->
     <div class="scene" id="scene-G">
       <h1 class="customfont" >The Velvet Underground, 10 p.m.</h1>
       <div class="textbox">
+        <img class="default" src="img/ruins_1.jpg">
         <p>In the early 21st century Velvet City was a major port located on a bustling waterway. By 2099 the river had been diverted to serve other SCorp interests. The dried up canals became The Velvet Underground. A haven for people looking to get lost.</p>
-
+<!-- <span needsFlag="mean-to-tony"> -->
         <p>You arrive at Block E, 5th avenue access hatch and key in the code <i>“xeon”.</i></p>
 
         <p>You step into the small dimly lit room. In the corner, a man in a purple hoodie is leaning against the wall. He takes down his hood.</p>
@@ -262,7 +264,7 @@
       <p>"I figure the evil I know is better than the one I don't," you say.</p>
       <p>You spend a few more hours at the bar, then head back home. You turn on your favorite reality TV show, "Climbing for Dollars."</p>
       <p>It doesn't give you much satisfaction. You snap off the TV, climb in to bed, and think about the madness you discovered today.</p>
-      <img class="default" src="img/hallway_6.jpg">
+      <img class="default" src="img/street_1.jpg">
       <h4>The End?</h4>
       </div>
     </div>
@@ -271,8 +273,8 @@
       <h1 class="customfont">Watchers HQ -- 8 a.m.</h1>
       <div class="textbox">
       <p>A few days later you awake at the Watchers pad to the sound of helicopters overhead. This is bad. Really bad. SCorp is on to you. They must have found out it was the Watchers that leaked the info. You check the Watcher newsfeed. <div class="blockquote"><strong>Crash caused and covered up by SCorp</strong><footer class="blockquote-footer">58 million views.</footer></div></p>
-      <p>It’s fight or flight time. Live or die. You climb out the window onto the rickety fire escape and shimmy your way down to your ‘85 Wizzer parked on the street below.</p>
-      <p>Finally you get it started, and take off at speed. Your heart is pounding; you’ve never felt like this before. Is it the end?</p>
+      <p>It’s fight or flight time. You climb out the window onto the rickety fire escape and shimmy your way down to your ‘85 Wizzer parked on the street below.</p>
+      <p>Finally you get it started, and take off at speed. Your heart is pounding. Is it the end?</p>
       <p>All of the sudden, two black SUVs pull up and block the intersection. Panic races through your body. You turn the bike around and attempt to go the other way, but 4 other SUVs pull up to block the opposite side of the street. The jig is up. You’re geeked.</p>
       <p>You dismount your bike, take off your helmet, and stare down your oppressors.
       Androids in black suits begin piling out of the vehicles. How do so many fit inside?</p>
